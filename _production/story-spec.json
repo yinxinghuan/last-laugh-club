@@ -24,9 +24,9 @@
       "setup": {
         "video_time": 5,
         "action_beats": [
-          "Elena serves Olivia normally at the engagement party.",
-          "Olivia slips the ring into her own glass and accuses Elena.",
-          "The manager empties Elena's tips while the crowd records her."
+          {"subject": "Elena", "action": "Serves Olivia normally", "result": "Elena's legitimate worker role is visible"},
+          {"subject": "Olivia", "action": "Hides her ring in her own glass", "result": "The source of the false accusation is visible"},
+          {"subject": "The manager and crowd", "action": "Empty Elena's tips and raise their phones", "result": "Elena is publicly treated as the thief"}
         ],
         "start_frame": "public/media/sketch1/setup_start.webp",
         "video": "public/media/sketch1/setup.mp4",
@@ -39,8 +39,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Elena turns out every empty pocket.",
-            "The manager still points her toward the exit."
+            {"subject": "Elena", "action": "Turns out every empty pocket", "result": "Her pockets are visibly empty"},
+            {"subject": "The manager", "action": "Points Elena toward the exit", "result": "Compliance fails to restore her innocence"}
           ],
           "video": "public/media/sketch1/empty_pockets.mp4",
           "end_frame": "public/media/sketch1/empty_pockets_end.webp"
@@ -51,8 +51,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Elena kneels to search the floor.",
-            "Olivia keeps the incriminating glass while the crowd treats submission as guilt."
+            {"subject": "Elena", "action": "Kneels to search the floor", "result": "Her submission is visible"},
+            {"subject": "Olivia and the crowd", "action": "Keep the glass raised and look down at Elena", "result": "Submission is mistaken for guilt"}
           ],
           "video": "public/media/sketch1/search_floor.mp4",
           "end_frame": "public/media/sketch1/search_floor_end.webp"
@@ -63,8 +63,8 @@
           "success": true,
           "video_time": 5,
           "action_beats": [
-            "The ring jumps from Olivia's glass onto Elena's metal tray.",
-            "Phones pivot to the proof as the manager faces Elena and apologizes."
+            {"subject": "The hidden ring", "action": "Jumps from Olivia's glass onto Elena's tray", "result": "The accuser's own glass exposes the proof"},
+            {"subject": "The phones and manager", "action": "Pivot toward the tray and Elena", "result": "The public accusation becomes a public apology"}
           ],
           "video": "public/media/sketch1/champagne_testifies.mp4",
           "end_frame": "public/media/sketch1/champagne_testifies_end.webp"
@@ -92,9 +92,9 @@
       "setup": {
         "video_time": 5,
         "action_beats": [
-          "Mara enters wearing the gown she made.",
-          "Beatrice dismisses her as cheap before the cameras.",
-          "Beatrice stains the gown and Mara's pass is withdrawn."
+          {"subject": "Mara", "action": "Enters wearing the gown she made", "result": "Her craft and desired place are visible"},
+          {"subject": "Beatrice", "action": "Dismisses Mara before the cameras", "result": "The class judgment becomes public"},
+          {"subject": "Beatrice and the gatekeeper", "action": "Stain the gown and withdraw Mara's pass", "result": "Mara loses both her work and belonging"}
         ],
         "start_frame": "public/media/sketch2/setup_start.webp",
         "video": "public/media/sketch2/setup.mp4",
@@ -107,8 +107,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Mara hides the stained gown beneath a coat.",
-            "Beatrice redirects her to coat check and erases her designer status."
+            {"subject": "Mara", "action": "Hides the stained gown beneath a coat", "result": "Her work disappears from view"},
+            {"subject": "Beatrice", "action": "Redirects Mara toward coat check", "result": "Mara is recast as staff instead of designer"}
           ],
           "video": "public/media/sketch2/hide_with_coat.mp4",
           "end_frame": "public/media/sketch2/hide_with_coat_end.webp"
@@ -119,8 +119,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Mara throws champagne back at Beatrice.",
-            "Security stops Mara while Beatrice keeps the social authority."
+            {"subject": "Mara", "action": "Throws champagne back at Beatrice", "result": "Her retaliation is visible"},
+            {"subject": "Security", "action": "Stops Mara instead of Beatrice", "result": "Retaliation makes Mara look like the problem"}
           ],
           "video": "public/media/sketch2/splash_back.mp4",
           "end_frame": "public/media/sketch2/splash_back_end.webp"
@@ -131,8 +131,8 @@
           "success": true,
           "video_time": 5,
           "action_beats": [
-            "Rain removes the stain and blooms Mara's fabric into floral color.",
-            "Cameras pivot and the front-row pass is returned to Mara."
+            {"subject": "The rain and gown", "action": "Remove the stain and bloom into floral color", "result": "Mara's craft visibly survives the harsher test"},
+            {"subject": "The cameras and gatekeeper", "action": "Pivot toward Mara and extend the pass", "result": "Her professional belonging is publicly restored"}
           ],
           "video": "public/media/sketch2/rain_reviews.mp4",
           "end_frame": "public/media/sketch2/rain_reviews_end.webp"
@@ -160,9 +160,9 @@
       "setup": {
         "video_time": 5,
         "action_beats": [
-          "Luis waits with the music box for the promised father-daughter dance.",
-          "Richard takes Luis's dance card and the host calls Richard instead.",
-          "Emma hesitates while Luis is left at the edge of the floor."
+          {"subject": "Luis", "action": "Waits with the music box for the promised dance", "result": "His father-daughter bond is visible"},
+          {"subject": "Richard and the host", "action": "Take Luis's card and call Richard instead", "result": "Luis is replaced in public"},
+          {"subject": "Emma", "action": "Hesitates without crossing to Luis", "result": "Luis remains erased at the edge of the floor"}
         ],
         "start_frame": "public/media/sketch3/setup_start.webp",
         "video": "public/media/sketch3/setup.mp4",
@@ -175,8 +175,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Luis loudly asserts that he is Emma's real father.",
-            "Emma breaks down and the room treats Richard as the calm parent."
+            {"subject": "Luis", "action": "Loudly asserts that he is Emma's real father", "result": "The biological fact becomes a public demand"},
+            {"subject": "Emma and the room", "action": "Break down and turn toward Richard", "result": "The demand weakens Luis's relationship claim"}
           ],
           "video": "public/media/sketch3/shout_father.mp4",
           "end_frame": "public/media/sketch3/shout_father_end.webp"
@@ -187,8 +187,8 @@
           "success": false,
           "video_time": 5,
           "action_beats": [
-            "Luis takes the music box and quietly leaves.",
-            "Richard completes the dance while Luis and the shared memory disappear."
+            {"subject": "Luis", "action": "Takes the music box and quietly leaves", "result": "The shared memory exits with him"},
+            {"subject": "Richard", "action": "Occupies the father-daughter dance", "result": "Withdrawal makes the replacement final"}
           ],
           "video": "public/media/sketch3/leave_quietly.mp4",
           "end_frame": "public/media/sketch3/leave_quietly_end.webp"
@@ -199,9 +199,9 @@
           "success": true,
           "video_time": 10,
           "action_beats": [
-            "Luis starts the old music box and Emma recognizes the melody.",
-            "Emma crosses the room and takes Luis's hand instead of Richard's.",
-            "The host returns the dance card as guests form their applause around father and daughter."
+            {"subject": "Luis and the music box", "action": "Play the childhood melody", "result": "Emma visibly recognizes their shared memory"},
+            {"subject": "Emma", "action": "Crosses the room and takes Luis's hand", "result": "The daughter publicly chooses her father"},
+            {"subject": "The host and guests", "action": "Return the card and applaud around them", "result": "The father-daughter dance is publicly restored"}
           ],
           "video": "public/media/sketch3/music_box_chooses.mp4",
           "end_frame": "public/media/sketch3/music_box_chooses_end.webp"
