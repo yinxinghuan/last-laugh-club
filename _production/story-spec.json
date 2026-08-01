@@ -23,6 +23,11 @@
       },
       "setup": {
         "video_time": 5,
+        "action_beats": [
+          "Elena serves Olivia normally at the engagement party.",
+          "Olivia slips the ring into her own glass and accuses Elena.",
+          "The manager empties Elena's tips while the crowd records her."
+        ],
         "start_frame": "public/media/sketch1/setup_start.webp",
         "video": "public/media/sketch1/setup.mp4",
         "choice_frame": "public/media/sketch1/choice.webp"
@@ -33,6 +38,10 @@
           "label": "Turn out every pocket",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Elena turns out every empty pocket.",
+            "The manager still points her toward the exit."
+          ],
           "video": "public/media/sketch1/empty_pockets.mp4",
           "end_frame": "public/media/sketch1/empty_pockets_end.webp"
         },
@@ -41,6 +50,10 @@
           "label": "Get down and search for it",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Elena kneels to search the floor.",
+            "Olivia keeps the incriminating glass while the crowd treats submission as guilt."
+          ],
           "video": "public/media/sketch1/search_floor.mp4",
           "end_frame": "public/media/sketch1/search_floor_end.webp"
         },
@@ -49,6 +62,10 @@
           "label": "Make the champagne testify",
           "success": true,
           "video_time": 5,
+          "action_beats": [
+            "The ring jumps from Olivia's glass onto Elena's metal tray.",
+            "Phones pivot to the proof as the manager faces Elena and apologizes."
+          ],
           "video": "public/media/sketch1/champagne_testifies.mp4",
           "end_frame": "public/media/sketch1/champagne_testifies_end.webp"
         }
@@ -74,6 +91,11 @@
       },
       "setup": {
         "video_time": 5,
+        "action_beats": [
+          "Mara enters wearing the gown she made.",
+          "Beatrice dismisses her as cheap before the cameras.",
+          "Beatrice stains the gown and Mara's pass is withdrawn."
+        ],
         "start_frame": "public/media/sketch2/setup_start.webp",
         "video": "public/media/sketch2/setup.mp4",
         "choice_frame": "public/media/sketch2/choice.webp"
@@ -84,6 +106,10 @@
           "label": "Hide it under a coat",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Mara hides the stained gown beneath a coat.",
+            "Beatrice redirects her to coat check and erases her designer status."
+          ],
           "video": "public/media/sketch2/hide_with_coat.mp4",
           "end_frame": "public/media/sketch2/hide_with_coat_end.webp"
         },
@@ -92,6 +118,10 @@
           "label": "Throw the champagne back",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Mara throws champagne back at Beatrice.",
+            "Security stops Mara while Beatrice keeps the social authority."
+          ],
           "video": "public/media/sketch2/splash_back.mp4",
           "end_frame": "public/media/sketch2/splash_back_end.webp"
         },
@@ -100,6 +130,10 @@
           "label": "Let the rain review the dress",
           "success": true,
           "video_time": 5,
+          "action_beats": [
+            "Rain removes the stain and blooms Mara's fabric into floral color.",
+            "Cameras pivot and the front-row pass is returned to Mara."
+          ],
           "video": "public/media/sketch2/rain_reviews.mp4",
           "end_frame": "public/media/sketch2/rain_reviews_end.webp"
         }
@@ -125,6 +159,11 @@
       },
       "setup": {
         "video_time": 5,
+        "action_beats": [
+          "Luis waits with the music box for the promised father-daughter dance.",
+          "Richard takes Luis's dance card and the host calls Richard instead.",
+          "Emma hesitates while Luis is left at the edge of the floor."
+        ],
         "start_frame": "public/media/sketch3/setup_start.webp",
         "video": "public/media/sketch3/setup.mp4",
         "choice_frame": "public/media/sketch3/choice.webp"
@@ -135,6 +174,10 @@
           "label": "Shout: I am her real father",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Luis loudly asserts that he is Emma's real father.",
+            "Emma breaks down and the room treats Richard as the calm parent."
+          ],
           "video": "public/media/sketch3/shout_father.mp4",
           "end_frame": "public/media/sketch3/shout_father_end.webp"
         },
@@ -143,6 +186,10 @@
           "label": "Take the music box and leave",
           "success": false,
           "video_time": 5,
+          "action_beats": [
+            "Luis takes the music box and quietly leaves.",
+            "Richard completes the dance while Luis and the shared memory disappear."
+          ],
           "video": "public/media/sketch3/leave_quietly.mp4",
           "end_frame": "public/media/sketch3/leave_quietly_end.webp"
         },
@@ -151,6 +198,11 @@
           "label": "Let the old music box choose",
           "success": true,
           "video_time": 10,
+          "action_beats": [
+            "Luis starts the old music box and Emma recognizes the melody.",
+            "Emma crosses the room and takes Luis's hand instead of Richard's.",
+            "The host returns the dance card as guests form their applause around father and daughter."
+          ],
           "video": "public/media/sketch3/music_box_chooses.mp4",
           "end_frame": "public/media/sketch3/music_box_chooses_end.webp"
         }
