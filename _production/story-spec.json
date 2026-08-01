@@ -12,6 +12,7 @@
       "choice_impulse": "Make the accuser's own champagne expose the lie.",
       "repayment": "The ring lands on Elena's tray and her innocence is restored.",
       "witness_flip": "Phones turn toward the evidence and Olivia while the manager publicly apologizes to Elena.",
+      "visual_proof_without_generated_text": "The ring physically jumps from Olivia's own glass onto Elena's tray; Olivia recoils, the phones pivot away from Elena, and the manager opens both hands in a direct apology toward her.",
       "scores": {
         "visible_loss": 2,
         "legible_injustice": 2,
@@ -62,6 +63,7 @@
       "choice_impulse": "Submit the gown to a harsher test that the editor's own couture cannot survive.",
       "repayment": "The handmade fabric blooms in rain and Mara regains her place as a designer.",
       "witness_flip": "Every camera turns to Mara and the front-row pass is handed back while Beatrice is left shocked.",
+      "visual_proof_without_generated_text": "Mara's stained dark fabric visibly blooms into a structured floral gown under rain while Beatrice's outfit collapses; cameras pivot and a physical pass is extended toward Mara.",
       "scores": {
         "visible_loss": 2,
         "legible_injustice": 2,
@@ -112,6 +114,7 @@
       "choice_impulse": "Let the memory shared by father and daughter make the decision.",
       "repayment": "Emma crosses the room, takes Luis's hand, and restores their promised dance.",
       "witness_flip": "The host returns the dance card and the guests form a clapping circle around father and daughter while Richard is left at the edge.",
+      "visual_proof_without_generated_text": "Emma recognizes the melody, crosses the room past Richard, takes Luis's hand, and the guests form their applause around the father and daughter while Richard remains outside the circle.",
       "scores": {
         "visible_loss": 2,
         "legible_injustice": 2,
