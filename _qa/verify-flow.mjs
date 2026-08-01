@@ -1,0 +1,12 @@
+import { createRequire } from 'node:module';
+const require=createRequire(import.meta.url);const {chromium}=require('playwright');const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:320,height:568}});await page.addInitScript(()=>localStorage.setItem('game_locale','en'));await page.goto('http://127.0.0.1:4190/',{waitUntil:'networkidle'});await page.addStyleTag({content:'#alteru-guest-banner{display:none!important}'});
+async function accelerate(){const video=page.locator('video');await video.waitFor({state:'visible',timeout:5000});await video.evaluate(el=>{el.muted=true;el.playbackRate=16;void el.play()})}
+await page.locator('.llc-cover>.llc-primary').click();await accelerate();await page.waitForSelector('.llc-question');
+const firstOrder=await page.locator('.llc-choices button strong').allTextContents();await page.getByRole('button',{name:/TURN OUT EVERY POCKET/}).click();await accelerate();await page.waitForSelector('.llc-verdict--failure');await page.locator('.llc-verdict .llc-primary').click();const secondOrder=await page.locator('.llc-choices button strong').allTextContents();
+const success=[/MAKE THE CHAMPAGNE TESTIFY/,/LET THE RAIN REVIEW THE DRESS/,/LET THE OLD MUSIC BOX CHOOSE/];
+let finalDuration=0;
+for(let i=0;i<success.length;i++){await page.getByRole('button',{name:success[i]}).click();if(i===success.length-1){const video=page.locator('video');await video.waitFor({state:'visible'});finalDuration=await video.evaluate(async el=>{if(!Number.isFinite(el.duration))await new Promise(resolve=>el.addEventListener('loadedmetadata',resolve,{once:true}));return el.duration})}await accelerate();await page.waitForSelector('.llc-verdict--success');if(i<success.length-1){await page.locator('.llc-verdict .llc-primary').click();await accelerate();await page.waitForSelector('.llc-question')}}
+const buttons=await page.locator('.llc-primary,.llc-choices button,.llc-topbar button').evaluateAll(nodes=>nodes.map(node=>{const r=node.getBoundingClientRect();return{w:r.width,h:r.height,right:r.right,bottom:r.bottom}}));
+if(firstOrder.join('|')===secondOrder.join('|'))throw new Error('failure did not rotate answers');if(finalDuration<9.8)throw new Error(`final duration ${finalDuration}`);if(buttons.some(b=>b.w<44||b.h<44||b.right>321||b.bottom>569))throw new Error(JSON.stringify(buttons));
+console.log(JSON.stringify({failureRetryRotates:true,threeSketchesAdvance:true,finalVideoSeconds:finalDuration,english320Fits:true}));await browser.close();

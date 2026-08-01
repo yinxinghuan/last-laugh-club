@@ -1,0 +1,25 @@
+{
+  "title": "LAST LAUGH CLUB",
+  "structure": "three_independent_sketches",
+  "shared_emotion": "public misjudgment becomes public correction",
+  "sketches": [
+    {
+      "id": "champagne_witness",
+      "debt": "a waitress is falsely accused of stealing a guest's ring",
+      "success": "make the champagne testify",
+      "repayment": "the ring publicly emerges from the accuser's own glass and the tip pouch is returned"
+    },
+    {
+      "id": "rain_review",
+      "debt": "a seamstress is mocked as cheap and deliberately stained at a fashion gala",
+      "success": "let the rain review the dress",
+      "repayment": "her fabric blooms in water, photographers turn, and she receives the front-row pass"
+    },
+    {
+      "id": "music_box_vote",
+      "debt": "a father is removed from his daughter's wedding dance for looking poor",
+      "success": "let the old music box choose",
+      "repayment": "the daughter recognizes their shared lullaby, crosses the room, and publicly chooses him"
+    }
+  ]
+}

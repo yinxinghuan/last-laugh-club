@@ -1,0 +1,10 @@
+{
+  "generator": "Aigram transit gen-image",
+  "endpoint": "https://chat.aiwaves.tech/aigram/api/gen-image",
+  "origin": "https://aigram.app",
+  "url": "reused-local-aigram-source",
+  "ref_url": "https://cdn.aiwaves.tech/prod/telegram/avatar/0/1785575267265826.webp",
+  "prompt": "Create premium square cinematic anthology key art, one unified live-action composition, not a collage and not a screenshot. Three underestimated Western protagonists stand shoulder to shoulder in a dark theatrical space and look newly confident. At frame left Elena is a Western Afro-Latina waitress age 29 with dark hair in a low bun and a fitted burgundy service jacket; she raises one dark metal serving tray with exactly one bright silver engagement ring at its center. At center Mara is a Western Black seamstress age 27 with short natural curls wearing the same luminous cobalt-blue gown covered in water-activated violet, silver and turquoise flowers; camera flashes behind her turn into a halo. At frame right Luis is a Western Latino father age 56 with salt-and-pepper hair and a modest worn navy suit; he holds one open antique walnut music box close to his heart. Behind each hero, elegant crowd silhouettes and phone cameras pivot away from accusation toward recognition. One thin tomato-red horizontal judgment beam enters from the left, breaks into three fragments behind their shoulders, and becomes warm cream light in front. Deep black negative space, cream highlights, burgundy, cobalt and walnut palette, realistic faces and fabric, dramatic 35mm lighting, powerful but emotionally human. Exactly three foreground adults, one tray, one ring and one music box. Leave the upper 25 percent calm deep black with low detail for later title typography. Keep all faces and evidence objects inside the central 72 percent and above the bottom 20 percent. Readable at 160 pixels. No text, no letters, no numbers, no logo, no UI, no watermark, no East Asian styling, no duplicate person, no extra hand, no duplicate ring, no duplicate music box.",
+  "finishing": "Pillow contrast, title gradient, English raster typography",
+  "output": "public/poster.png"
+}
