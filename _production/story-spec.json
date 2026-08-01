@@ -1,25 +1,157 @@
 {
   "title": "LAST LAUGH CLUB",
-  "structure": "three_independent_sketches",
-  "shared_emotion": "public misjudgment becomes public correction",
-  "sketches": [
+  "structure": "anthology",
+  "emotional_promise": "Three ordinary people are publicly misjudged, and the same witnesses must visibly reverse that judgment.",
+  "stories": [
     {
       "id": "champagne_witness",
-      "debt": "a waitress is falsely accused of stealing a guest's ring",
-      "success": "make the champagne testify",
-      "repayment": "the ring publicly emerges from the accuser's own glass and the tip pouch is returned"
+      "entitlement": "Elena deserves to do her job without being treated as a thief.",
+      "loss": "Her innocence and employment standing are taken when a guest accuses her and the manager empties her tips in public.",
+      "injustice": "Olivia hides her own ring in a glass while phones record Elena as the suspect.",
+      "suppression": "Elena endures the search while the crowd accepts Olivia's status as proof.",
+      "choice_impulse": "Make the accuser's own champagne expose the lie.",
+      "repayment": "The ring lands on Elena's tray and her innocence is restored.",
+      "witness_flip": "Phones turn toward the evidence and Olivia while the manager publicly apologizes to Elena.",
+      "scores": {
+        "visible_loss": 2,
+        "legible_injustice": 2,
+        "suppression": 1,
+        "choice_impulse": 2,
+        "symmetric_repayment": 2,
+        "witness_flip": 2
+      },
+      "setup": {
+        "video_time": 5,
+        "start_frame": "public/media/sketch1/setup_start.webp",
+        "video": "public/media/sketch1/setup.mp4",
+        "choice_frame": "public/media/sketch1/choice.webp"
+      },
+      "outcomes": [
+        {
+          "id": "empty_pockets",
+          "label": "Turn out every pocket",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch1/empty_pockets.mp4",
+          "end_frame": "public/media/sketch1/empty_pockets_end.webp"
+        },
+        {
+          "id": "search_floor",
+          "label": "Get down and search for it",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch1/search_floor.mp4",
+          "end_frame": "public/media/sketch1/search_floor_end.webp"
+        },
+        {
+          "id": "champagne_testifies",
+          "label": "Make the champagne testify",
+          "success": true,
+          "video_time": 5,
+          "video": "public/media/sketch1/champagne_testifies.mp4",
+          "end_frame": "public/media/sketch1/champagne_testifies_end.webp"
+        }
+      ]
     },
     {
       "id": "rain_review",
-      "debt": "a seamstress is mocked as cheap and deliberately stained at a fashion gala",
-      "success": "let the rain review the dress",
-      "repayment": "her fabric blooms in water, photographers turn, and she receives the front-row pass"
+      "entitlement": "Mara deserves entry to the gala on the strength of the gown she made.",
+      "loss": "Her professional worth and front-row access are taken after Beatrice calls her cheap and stains the gown.",
+      "injustice": "A powerful editor turns class prejudice and deliberate damage into a public joke.",
+      "suppression": "Mara stands under the laughing cameras while her pass is withdrawn.",
+      "choice_impulse": "Submit the gown to a harsher test that the editor's own couture cannot survive.",
+      "repayment": "The handmade fabric blooms in rain and Mara regains her place as a designer.",
+      "witness_flip": "Every camera turns to Mara and the front-row pass is handed back while Beatrice is left shocked.",
+      "scores": {
+        "visible_loss": 2,
+        "legible_injustice": 2,
+        "suppression": 1,
+        "choice_impulse": 2,
+        "symmetric_repayment": 2,
+        "witness_flip": 2
+      },
+      "setup": {
+        "video_time": 5,
+        "start_frame": "public/media/sketch2/setup_start.webp",
+        "video": "public/media/sketch2/setup.mp4",
+        "choice_frame": "public/media/sketch2/choice.webp"
+      },
+      "outcomes": [
+        {
+          "id": "hide_with_coat",
+          "label": "Hide it under a coat",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch2/hide_with_coat.mp4",
+          "end_frame": "public/media/sketch2/hide_with_coat_end.webp"
+        },
+        {
+          "id": "splash_back",
+          "label": "Throw the champagne back",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch2/splash_back.mp4",
+          "end_frame": "public/media/sketch2/splash_back_end.webp"
+        },
+        {
+          "id": "rain_reviews",
+          "label": "Let the rain review the dress",
+          "success": true,
+          "video_time": 5,
+          "video": "public/media/sketch2/rain_reviews.mp4",
+          "end_frame": "public/media/sketch2/rain_reviews_end.webp"
+        }
+      ]
     },
     {
       "id": "music_box_vote",
-      "debt": "a father is removed from his daughter's wedding dance for looking poor",
-      "success": "let the old music box choose",
-      "repayment": "the daughter recognizes their shared lullaby, crosses the room, and publicly chooses him"
+      "entitlement": "Luis deserves the father-daughter dance promised by Emma.",
+      "loss": "His place as her father is publicly erased because his old suit looks poor beside Richard.",
+      "injustice": "Money and appearance overwrite a lifelong relationship while the wedding follows along.",
+      "suppression": "Luis holds the music box at the edge of the dance floor while Emma hesitates and the host changes the card.",
+      "choice_impulse": "Let the memory shared by father and daughter make the decision.",
+      "repayment": "Emma crosses the room, takes Luis's hand, and restores their promised dance.",
+      "witness_flip": "The host returns the dance card and the guests form a clapping circle around father and daughter while Richard is left at the edge.",
+      "scores": {
+        "visible_loss": 2,
+        "legible_injustice": 2,
+        "suppression": 1,
+        "choice_impulse": 2,
+        "symmetric_repayment": 2,
+        "witness_flip": 2
+      },
+      "setup": {
+        "video_time": 5,
+        "start_frame": "public/media/sketch3/setup_start.webp",
+        "video": "public/media/sketch3/setup.mp4",
+        "choice_frame": "public/media/sketch3/choice.webp"
+      },
+      "outcomes": [
+        {
+          "id": "shout_father",
+          "label": "Shout: I am her real father",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch3/shout_father.mp4",
+          "end_frame": "public/media/sketch3/shout_father_end.webp"
+        },
+        {
+          "id": "leave_quietly",
+          "label": "Take the music box and leave",
+          "success": false,
+          "video_time": 5,
+          "video": "public/media/sketch3/leave_quietly.mp4",
+          "end_frame": "public/media/sketch3/leave_quietly_end.webp"
+        },
+        {
+          "id": "music_box_chooses",
+          "label": "Let the old music box choose",
+          "success": true,
+          "video_time": 10,
+          "video": "public/media/sketch3/music_box_chooses.mp4",
+          "end_frame": "public/media/sketch3/music_box_chooses_end.webp"
+        }
+      ]
     }
   ]
 }
